@@ -1,0 +1,56 @@
+/* Why wait START  */
+.try-container {
+    background-color: var(--primery-color);
+    padding: 111px 0 164px;
+    text-align: center;
+
+    @media (max-width: 1199px) {
+        padding: 85px 0;
+        font-size: 23px;
+    }
+
+    @media (max-width: 991px) {
+        padding: 80px 0;        
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0;
+        font-size: 20px;   
+    }
+}
+
+.try-container h2 {
+    margin-bottom: 33px;
+    line-height: 75px;
+
+    @media (max-width: 1199px) {
+      font-size: 45px;
+  }
+  
+  @media (max-width: 991px) {
+      font-size: 35px;
+      line-height: 45px;
+      margin-bottom: 30px;
+  }
+  
+    @media (max-width: 767px) {
+    font-size: 33px;
+    line-height: 40px;
+    margin-bottom: 30px;
+  }
+
+  @media (max-width: 575px) {
+      font-size: 25px;
+      line-height: 35px;
+    }
+}
+
+.try-container p {
+    margin-bottom: 56px;
+
+    @media (max-width: 575px) {
+      font-size: 18px;
+      line-height: 25px;
+    }
+}
+

@@ -1,0 +1,78 @@
+/* Quote START */
+.quote-wrapper {
+    background-color: #c9e8f2;
+    padding: 60px 0 98px;
+
+    @media (max-width: 991px) {
+        padding: 80px 0;        
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 0;        
+    }
+}
+
+.quote-container {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 767px) {
+        display: block;
+    }
+}
+
+.blockquote {
+    width: 70%;
+    padding-right: 20px;
+
+    @media (max-width: 991px) {
+        width: 50%;
+    }
+
+    @media (max-width: 767px) {
+        width: 100%;
+    }
+}
+
+.blockquote q {
+    display: block;
+    margin-bottom: 25px;
+    font-size: 30px;
+    line-height: 40px;
+
+    @media (max-width: 991px) {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    @media (max-width: 767px) {
+        font-size: 20px;
+        line-height: 30px;
+    }
+}
+
+.blockquote cite {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 15px;
+    line-height: 25px;
+    font-style: normal;
+}
+
+.blockquote .quote-logo {
+    width: auto;    
+}
+
+.quote-container .quote-photo {
+    width: 24%;
+
+    @media (max-width: 991px) {
+        width: 35%;
+    }
+
+    @media (max-width: 767px) {
+        width: 50%;
+        padding-top: 20px;
+        margin: 0 auto;
+    }
+}

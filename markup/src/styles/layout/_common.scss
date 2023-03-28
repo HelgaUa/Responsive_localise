@@ -1,0 +1,102 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the common layout of the site
+// -----------------------------------------------------------------------------
+
+:root {
+  --main-color: #ffffff;
+  --accent-color: #ff6435;
+  --primery-color: #fe9c7c;
+  --main-transition: all .2s linear;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Graphik', Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  background-color: var(--main-color);
+}
+
+#wrapper {
+  width: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 65px;
+  line-height: 70px;
+
+  @media (max-width: 1199px) {
+    font-size: 50px;
+    line-height: 55px;
+    margin-bottom: 25px;
+}
+
+  @media (max-width: 991px) {
+    font-size: 45px;
+    line-height: 45px;
+}
+
+  @media (max-width: 767px) {
+    font-size: 35px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: 575px) {
+    font-size: 30px;
+    line-height: 35px;
+  }
+
+}
+
+h3 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 60px;
+
+
+  @media (max-width: 1199px) {
+    font-size: 45px;
+}
+
+  @media (max-width: 991px) {
+    font-size: 35px;
+    line-height: 45px;
+}
+
+@media (max-width: 767px) {
+  font-size: 33px;
+  line-height: 40px;
+}
+
+@media (max-width: 575px) {
+  font-size: 25px;
+  line-height: 35px;
+}
+
+}
+
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: #000000;
+}
+
+body a:hover {
+  text-decoration: underline var(--accent-color);
+}

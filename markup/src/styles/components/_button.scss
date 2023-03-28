@@ -1,0 +1,86 @@
+.header-buttons {
+    @media (max-width: 991px){
+        padding-right: 52px;
+    }
+}
+
+.btn-small {
+    font-weight: 600;
+    font-size: 16px;
+    margin-left: 6px;
+    margin-bottom: 5px;
+    min-width: 120px;
+    padding: 6px 0;
+    text-align: center;
+    
+    @media (max-width: 991px) {
+        font-size: 14px;
+        line-height: 20px;
+        min-width: 85px;
+    }
+
+    @media (max-width: 575px) {
+        margin-left: 0;
+    }
+}
+
+.btn-white {
+    background-color: var(--main-color);
+    border: 1px solid #797979;
+
+    &:hover {
+        color: var(--main-color);
+        background-color: var(--accent-color);
+        border-color: var(--accent-color);
+        text-decoration: none;
+        transition: var(--main-transition);
+    }
+}
+
+.btn-orange {
+    background-color: var(--accent-color);
+    border: 1px solid var(--accent-color);
+    color: var(--main-color);
+
+    &:hover {
+        color: #000;
+        background-color: transparent;
+        border-color: #797979;
+        text-decoration: none;
+        transition: var(--main-transition);
+    }
+}
+
+.buttons-wrapper {
+    margin-bottom: 13px;
+
+}
+
+.btn-big {
+    font-weight: 600;
+    font-size: 16px;
+    min-width: 160px;
+    margin-right: 4px;
+    text-align: center;
+    padding: 12px 23px;
+
+    @media (max-width: 991px) {
+        font-size: 15px;
+        line-height: 20px;
+        min-width: 85px;
+    }
+}
+
+.btn-black {
+    background-color: #000000;
+    border: 1px solid #000000;
+    color: var(--main-color);
+}
+
+.btn-black:hover {
+    background-color: transparent;
+    color: #000;
+    text-decoration: none;
+    transition: var(--main-transition);
+}
+

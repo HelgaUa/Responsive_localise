@@ -1,0 +1,116 @@
+/* Boost productivity START */
+.boost-productivity-container {
+    padding-top: 148px;
+    padding-bottom: 143px;
+
+    @media (max-width: 991px) {
+        padding: 80px 20px;        
+    }
+
+    @media (max-width: 767px) {
+        padding: 50px 20px;        
+    }
+}
+
+.boost-productivity-container h3 {
+    margin-bottom: 75px;
+
+    @media (max-width: 1199px) {
+        font-size: 45px;
+    }
+    
+    @media (max-width: 991px) {
+        font-size: 35px;
+        line-height: 45px;
+        margin-bottom: 30px;
+    }
+    
+      @media (max-width: 767px) {
+      font-size: 33px;
+      line-height: 40px;
+      margin-bottom: 30px;
+    }
+
+    @media (max-width: 575px) {
+        font-size: 25px;
+        line-height: 35px;
+      }
+}
+
+.boost-productivity {
+    display: flex;
+    justify-content: space-between;
+
+    @media (max-width: 991px) {
+        display: block;  
+    }
+
+    &__link {
+        @media (max-width: 575px) {
+            font-size: 16px;  
+        }
+    }
+}
+
+.boost-productivity__item {
+    width: 32%;
+    font-size: 20px;
+    line-height: 30px;
+    margin-bottom: 75px;
+    padding-right: 10px;
+
+    @media (max-width: 991px) {
+        display: flex;
+        width: 100%; 
+        margin-bottom: 50px;
+    }
+
+    @media (max-width: 400px) {
+        display: block;
+    }
+}
+
+.boost-productivity__item:nth-child(3n) {
+    padding-right: 0;
+}
+
+.img-container {
+    min-height: 208px;
+    margin-bottom: 45px;
+
+    @media (max-width: 991px) {
+        width: 100%;
+        min-width: 100px;
+        margin-right: 20px;
+    }
+
+    @media (max-width: 575px) {
+        min-width: 100px;
+    }
+}
+
+.boost-productivity__item h4 {
+    margin-bottom: 34px;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 40px;
+
+    @media (max-width: 575px) {
+        margin-bottom: 25px;
+        font-size: 20px;
+    }
+}
+
+.boost-productivity__item p {
+    margin-bottom: 27px;
+
+    @media (max-width: 575px) {
+        margin-bottom: 10px;
+        font-size: 18px;
+        line-height: 25px;
+    }
+}
+
+.boost-productivity__item a {
+    text-decoration: underline;
+}
